@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <h1>Galeria de Fotos</h1>
+    <button type="button" >Nova imagem</button>
+</header>
+
+<form>
+    <h2>Inserir nova imagem</h2>
+    <input type="url" required id="endereco-imagem-nova" placeholder="URL da imagem" >
+    <button type="submit">Acidionar</button>
+    <button type="reset" id="botao-cancelar">Cancelar</button>
+</form>
+
+<ul>
+    <li>
+        <img src="./img/foto1.jpg" alt="pintura de um gatinho">
+        <div class="overimagem" >
+            <a href="./img/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                Ver imagem em tamanho real
+            </a>
+        </div >
+    </li>
+    <li>
+        <img src="./img/foto2.jpg" alt="pintura de um gatinho">
+        <div class="overimagem">
+            <a href="./img/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                Ver imagem em tamanho real
+            </a>
+        </div>
+    </li>
+    <li>
+        <img src="./img/foto3.jpg" alt="pintura de um gatinho">
+        <div class="overimagem">
+            <a href="./img/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                Ver imagem em tamanho real
+            </a>
+        </div>
+    </li>
+</ul>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="/main.js"></script>
+<body>
+    
+</body>
+</html>
